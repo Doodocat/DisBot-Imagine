@@ -1,0 +1,15 @@
+{
+  "name": "imagine-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot with a /imagine command that generates AI images, Midjourney-style.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "deploy-commands": "node deploy-commands.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
