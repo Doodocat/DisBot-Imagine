@@ -5,8 +5,6 @@ const client = new Client({
   intents: [GatewayIntentBits.Guilds],
 });
 
-// Pollinations.ai is a free, no-API-key-required image generation service.
-// It works by encoding the prompt straight into a URL that returns an image.
 function buildPollinationsUrl(prompt, { width, height, seed }) {
   const encodedPrompt = encodeURIComponent(prompt);
   const params = new URLSearchParams({
